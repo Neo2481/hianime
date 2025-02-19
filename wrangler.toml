@@ -1,0 +1,6 @@
+name = "aniwatch-api"
+type = "javascript"
+account_id = "3e7bc0193c738458462fdfe5035dc201"
+workers_dev = true
+compatibility_date = "2024-02-18"
+main = "worker.js"
