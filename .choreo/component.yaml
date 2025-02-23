@@ -2,11 +2,12 @@ component:
   name: hianime-api
   type: service
   source:
-    repository: https://github.com/Neo2481/hianime
+    repository: https://github.com/YOUR-USERNAME/hianime
     branch: main
   build:
     runtime: nodejs18
     buildCommand: npm install
+    startCommand: node index.js  # Change this to your main server file
   deploy:
     replicas: 1
     env:
@@ -17,6 +18,3 @@ component:
     ports:
       - port: 3000
         protocol: HTTP
-
-# Place this file inside the .choreo directory in the root of your project
-# Example file path: <your-project-root>/.choreo/component.yaml
