@@ -2,7 +2,7 @@ component:
   name: hianime-api
   type: service
   source:
-    repository: https://github.com/ghoshRitesh12/aniwatch-api
+    repository: https://github.com/Neo2481/hianime
     branch: main
   build:
     runtime: nodejs18
